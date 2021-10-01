@@ -84,8 +84,8 @@ let link = `https://randomuser.me/api/?page=${pgno}&results=10`;
                 <hr class="m-0">
                 <!-- Picture Part -->
                 <div class="Main__data ">
-                   <img src="https://images.unsplash.com/photo-1632714391952-abd0705ba7f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMzA5NzEyMQ&ixlib=rb-1.2.1&q=80&w=1080" alt="">
-                    <!-- <img src="https://source.unsplash.com/user/erondu/1500x600" alt=""> -->
+                 <!--  <img src="https://images.unsplash.com/photo-1632333650953-f68e8b3d5f02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMzA5Nzk2NA&ixlib=rb-1.2.1&q=80&w=1080" alt=""> -->
+                     <img src=${e.picture.large} alt="" id="Main_Picture"> 
                 </div>
                 <hr id="hr1">
 
