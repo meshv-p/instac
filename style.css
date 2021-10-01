@@ -40,6 +40,11 @@ input{
     border-radius: 50%;
     border: 2px solid red;
 }
+
+#Main_Picture{
+    width: 100%;
+    image-rendering: pixelated;
+}
 .fa-user-circle-o {
     border: 3x solid red;
     border-radius: 50%;
